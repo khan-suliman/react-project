@@ -28,12 +28,18 @@ function Navbar() {
           </div>
           <div className="item">
             <Notification />
+            <div className="counter">1</div>
           </div>
           <div className="item">
             <ChatBubble />
+            <div className="counter">1</div>
           </div>
           <div className="item">
             <ListOutlined />
+          </div>
+          <div className="item">
+            <img src="https://img.freepik.com/premium-vector/man-profile-cartoon_18591-58482.jpg?w=2000"
+              className='avatar' />
           </div>
         </div>
       </div>
